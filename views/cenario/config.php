@@ -2,6 +2,14 @@
 /* @var $this yii\web\View */
 
 $this->title = 'Cenário';
+/*
+$this->registerJsFile ( '@web/js/bootstrap-toggle.js', [ 
+		'depends' => [ 
+				\yii\web\JqueryAsset::className () 
+		] 
+]);
+*/
+$this->registerCssFile("@web/css/bootstrap-toggle.min.css");
 
 $this->registerJsFile ( '@web/js/cenario.js', [ 
 		'depends' => [ 
